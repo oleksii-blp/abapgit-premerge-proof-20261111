@@ -1,0 +1,10 @@
+CLASS zcl_qas_poc_onlyb DEFINITION PUBLIC FINAL CREATE PUBLIC.
+  PUBLIC SECTION.
+    CLASS-METHODS get_value RETURNING VALUE(rv_value) TYPE string.
+ENDCLASS.
+
+CLASS zcl_qas_poc_onlyb IMPLEMENTATION.
+  METHOD get_value.
+    rv_value = 'B'.
+  ENDMETHOD.
+ENDCLASS.
